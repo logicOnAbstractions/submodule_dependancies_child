@@ -1,4 +1,6 @@
+import numpy as np
 
 def foo():
-    return "hello world!"
+    sum = np.sum(np.ones(shape=(5,5)))
+    return f"hello world! (sum of 5x5 matrix using numpy: {sum}"
 
